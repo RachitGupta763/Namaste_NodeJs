@@ -11,27 +11,27 @@ A monolithic architecture is a traditional approach where an entire application 
 
 ### Advantages of Monolithic Architecture
 
-Simplicity: All the code for the application is in one place, making it easier to understand and develop
+`Simplicity`: All the code for the application is in one place, making it easier to understand and develop
 
-Fast Development: New features can be developed quickly as all parts of the application are tightly integrated
+`Fast Development`: New features can be developed quickly as all parts of the application are tightly integrated
 
-Easy Deployment: Deploying a monolithic application is straightforward as it involves deploying a single artifact
+`Easy Deployment`: Deploying a monolithic application is straightforward as it involves deploying a single artifact
 
-Simplified Testing: End-to-end testing can be performed faster since the application is a single, centralized unit
+`Simplified Testing`: End-to-end testing can be performed faster since the application is a single, centralized unit
 
-Easy Debugging: With all code located in one place, it’s easier to follow a request and find an issue
+`Easy Debugging`: With all code located in one place, it’s easier to follow a request and find an issue
 
 ### Disadvantages of Monolithic Architecture
 
-Complexity: As the application grows, it becomes more complex and harder to manage
+`Complexity`: As the application grows, it becomes more complex and harder to manage
 
-Scalability: Scaling individual components is challenging as the entire application needs to be scaled
+`Scalability`: Scaling individual components is challenging as the entire application needs to be scaled
 
-Reliability: An error in any module can affect the entire application’s availability
+`Reliability`: An error in any module can affect the entire application’s availability
 
-Barrier to Technology Adoption: Changes in the framework or language affect the entire application, making updates expensive and time-consuming
+`Barrier to Technology Adoption`: Changes in the framework or language affect the entire application, making updates expensive and time-consuming
 
-Deployment: A small change requires redeploying the entire application
+`Deployment`: A small change requires redeploying the entire application
 
 
 ## Microservice Architecture
@@ -40,29 +40,29 @@ A microservice architecture is an architectural method that relies on a series o
 
 ### Advantages of Microservice Architecture
 
-Agility: Promotes agile ways of working with small teams that deploy frequently
+`Agility`: Promotes agile ways of working with small teams that deploy frequently
 
-Flexible Scaling: Individual services can be scaled independently based on demand
+`Flexible Scaling`: Individual services can be scaled independently based on demand
 
-Continuous Deployment: Enables frequent and faster release cycles
+`Continuous Deployment`: Enables frequent and faster release cycles
 
-High Maintainability: Easier to update and maintain the codebase as each service is smaller and focused on a specific functionality
+`High Maintainability`: Easier to update and maintain the codebase as each service is smaller and focused on a specific functionality
 
-Technology Flexibility: Teams can use different technologies and programming languages for different services
+`Technology Flexibility`: Teams can use different technologies and programming languages for different services
 
-High Reliability: Changes in one service do not affect the entire application
+`High Reliability`: Changes in one service do not affect the entire application
 
 ### Disadvantages of Microservice Architecture
 
-Complexity: Managing a large number of microservices can be complex and requires careful coordination
+`Complexity`: Managing a large number of microservices can be complex and requires careful coordination
 
-Increased Overhead: Managing communication between services can impact performance
+`Increased Overhead`: Managing communication between services can impact performance
 
-Deployment Complexity: Requires a robust deployment pipeline and automated tools
+`Deployment Complexity`: Requires a robust deployment pipeline and automated tools
 
-Debugging Challenges: Debugging can be more complicated as each service has its own set of logs
+`Debugging Challenges`: Debugging can be more complicated as each service has its own set of logs
 
-Cost: Increased infrastructure and operational costs
+`Cost`: Increased infrastructure and operational costs
 
 ## Conclusion
 
